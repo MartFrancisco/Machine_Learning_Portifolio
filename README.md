@@ -13,3 +13,15 @@ I also plotted some graphs for better visualization (pair plot, violin graph, co
 
 Five models were generated and then evaluated and tuned. Four performance indicators were computed for each model, before and after tunning (F1, recall, accuracy, and precision).
 [Check here](https://github.com/MartFrancisco/Machine_Learning_Portifolio/blob/Glass-Classification-Project/Models.ipynb).
+
+
+
+## QSAR androgen receptor
+
+It is a project to build classification machine learning models to predict if molecules are active or not in a receptor.
+Check the dataset at [UCI - QSAR androgen receptor](https://archive.ics.uci.edu/dataset/509/qsar+androgen+receptor). It contains 1024 attributes (molecular fingerprints) and 1687 instances (molecules).
+
+I used this project to study the effect of unbalanced data on the models. Support Vector Classifier and Random Forest were employed for the original dataset and then evaluated. In the second step, the classes were balanced using SMOTE (Synthetic Minority Oversampling Technique), and both machine learning algorithms were again employed to check the possible implications.
+
+It is possible to observe that by treating the unbalanced characteristic of the data set, the models have a significant increase in the performance measurements. You can check the project [here](https://github.com/MartFrancisco/Machine_Learning_Portifolio/tree/QSAR-androgen-agonist)
+
